@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-mock": "prism mock ./open-api-spec/yaml-resolved/swagger.yaml"
+    "start-mock": "prism mock ./open-api-spec/swagger.yaml",
+    "generate-api": "openapi-generator-cli generate -i ./open-api-spec/swagger.yaml --generator-name javascript -o src/api"
   },
   "eslintConfig": {
     "extends": [
