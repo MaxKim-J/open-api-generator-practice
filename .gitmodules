@@ -1,0 +1,3 @@
+[submodule "open-api-spec"]
+	path = open-api-spec
+	url = https://github.com/MaxKim-J/open-api-spec
